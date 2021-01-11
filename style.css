@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.line {
+    width: 55px;
+    height: 6px;
+    background-color: chartreuse;
+    margin: 8px auto;
+}
+
+img {
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1);
+}
+#mycarousel{
+    background-color: purple;
+}
+#mycarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
